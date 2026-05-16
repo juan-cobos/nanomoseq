@@ -8,3 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Python version and lock files (environment-specific)
+.python-version
+uv.lock
