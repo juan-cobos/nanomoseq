@@ -1,0 +1,24 @@
+[project]
+name = "nanomoseq"
+version = "0.1.0"
+description = "Single-file numpy AR-HMM pipeline for behavioral segmentation of pose keypoint data"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Juan Cobos", email = "jcobosalvarez00@gmail.com" }]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+keywords = ["neuroscience", "behavior", "moseq", "hmm", "pose estimation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+
+[project.urls]
+Repository = "https://github.com/juancobos/nanomoseq"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
