@@ -1,6 +1,6 @@
 # NanoMoSeq
 
-Single-file numpy AR-HMM pipeline for behavioral segmentation of pose keypoint data.
+Minimal AR-HMM pipeline for unsupervised behavioral segmentation from pose keypoints.
 
 ## Pipeline
 
@@ -63,6 +63,23 @@ behavioral_states = hhmm.states_      # {name: ndarray(T,)}
 trans_probs       = hhmm.trans_probs_ # (n_states, n_states)
 emissions         = hhmm.emissions_   # (n_states, n_syllables, n_syllables)
 ```
+
+## Citation
+
+If you use NanoMoSeq in your research, please cite it as:
+
+```bibtex
+@software{cobos2026nanomoseq,
+  author  = {Cobos, Juan},
+  title   = {{NanoMoSeq}: Single-file numpy AR-HMM pipeline for behavioral segmentation of pose keypoint data},
+  year    = {2026},
+  url     = {https://github.com/juancobos/nanomoseq},
+  version = {0.1.0},
+  license = {MIT}
+}
+```
+
+A machine-readable citation is also available in [CITATION.cff](CITATION.cff).
 
 ## Acknowledgments
 

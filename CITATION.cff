@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: NanoMoSeq
+abstract: "Minimal AR-HMM pipeline for unsupervised behavioral segmentation from pose keypoints."
+version: 0.1.0
+date-released: "2026-05-17"
+url: "https://github.com/juancobos/nanomoseq"
+repository-code: "https://github.com/juancobos/nanomoseq"
+license: MIT
+authors:
+  - family-names: Cobos
+    given-names: Juan
+    email: jcobosalvarez00@gmail.com
+keywords:
+  - neuroscience
+  - behavior
+  - moseq
+  - hmm
+  - pose estimation

@@ -1,7 +1,7 @@
 [project]
 name = "nanomoseq"
 version = "0.1.0"
-description = "Single-file numpy AR-HMM pipeline for behavioral segmentation of pose keypoint data"
+description = "Minimal AR-HMM pipeline for unsupervised behavioral segmentation from pose keypoints"
 readme = "README.md"
 license = { text = "MIT" }
 authors = [{ name = "Juan Cobos", email = "jcobosalvarez00@gmail.com" }]
