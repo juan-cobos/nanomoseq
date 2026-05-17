@@ -2,6 +2,12 @@
 
 Minimal AR-HMM pipeline for unsupervised behavioral segmentation from pose keypoints.
 
+## Installation
+
+```bash
+pip install nanomoseq
+```
+
 ## Pipeline
 
 ```
@@ -71,9 +77,9 @@ If you use NanoMoSeq in your research, please cite it as:
 ```bibtex
 @software{cobos2026nanomoseq,
   author  = {Cobos, Juan},
-  title   = {{NanoMoSeq}: Single-file numpy AR-HMM pipeline for behavioral segmentation of pose keypoint data},
+  title   = {{NanoMoSeq}: Minimal AR-HMM pipeline for unsupervised behavioral segmentation from pose keypoints},
   year    = {2026},
-  url     = {https://github.com/juancobos/nanomoseq},
+  url     = {https://github.com/juan-cobos/nanomoseq},
   version = {0.1.0},
   license = {MIT}
 }
